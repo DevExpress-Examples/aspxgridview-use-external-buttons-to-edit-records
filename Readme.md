@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How Insert, Update and Delete ASPxGridView's records with buttons
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1522/)**
+<!-- run online end -->
 
 
 <p>To change ASPxGridView's data from the client side, there are appropriate ASPxClientGrid methods:</p><p><a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_AddNewRowtopic">AddNewRow</a><br />
