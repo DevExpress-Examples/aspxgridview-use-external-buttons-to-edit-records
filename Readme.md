@@ -12,6 +12,8 @@ This example demonstrates how to use external button controls to edit a [Grid Vi
 
 ![Use External Buttons to Edit Grid Data](external-button-edits.png)
 
+## Implementation Details
+
 The example application implements a custom toolbar populated with [ASPxButton](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxButton) controls. The [`Click`](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxButton.Click) event handlers of these buttons call the following method to initiate CRUD operations.
 
 ### To create and delete rows:
