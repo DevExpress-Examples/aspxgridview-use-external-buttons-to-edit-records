@@ -3,27 +3,42 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1522)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
-<!-- default file list end -->
-# How Insert, Update and Delete ASPxGridView's records with buttons
+# Grid View for ASP.NET Web Forms - How to Use External Buttons to Edit Grid Data
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/128537632/)**
 <!-- run online end -->
 
+This example demonstrates how to use external button controls to edit a [Grid View](https://docs.devexpress.com/AspNet/5823/components/grid-view)'s data records.
 
-<p>To change ASPxGridView's data from the client side, there are appropriate ASPxClientGrid methods:</p><p><a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_AddNewRowtopic">AddNewRow</a><br />
-<a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_DeleteRowtopic">DeleteRow</a><br />
-<a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_StartEditRowtopic">StartEditRow</a></p><p>To save or cancel changes, there are:<br />
-<a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_UpdateEdittopic">UpdateEdit</a><br />
-<a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_CancelEdittopic">CancelEdit</a></p><p>The following example implements a custom defined toolbar with ASPxButtons, which perform all the editing capabilities over a grid's data source.</p><p>Note: to distinguish records, the property <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewASPxGridViewBehaviorSettings_AllowFocusedRowtopic">AllowFocusedRow</a> should be enabled for grid.</p><p><strong>See Also:</strong><br />
-<a href="https://www.devexpress.com/Support/Center/p/E7">Switch to the edit mode by clicking a status bar button or by double-clicking a row</a><br />
-<a href="https://www.devexpress.com/Support/Center/p/E257">Editing an in-memory dataset</a><br />
-<a href="https://www.devexpress.com/Support/Center/p/E2345">How to enable/disable command buttons on the client side</a></p>
+![Use External Buttons to Edit Grid Data](external-button-edits.png)
 
-<br/>
+The example application implements a custom toolbar populated with [ASPxButton](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxButton) controls. The [`Click`](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxButton.Click) event handlers of these buttons call the following method to initiate CRUD operations.
 
+### To create and delete rows:
 
+- [AddNewRow](http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_AddNewRowtopic)
+- [DeleteRow](http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_DeleteRowtopic)
+
+### To start editing a row:
+
+- [StartEditRow](http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_StartEditRowtopic)
+
+### To save or cancel changes:
+
+- [UpdateEdit](http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_UpdateEdittopic)
+- [CancelEdit](http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewScriptsASPxClientGridView_CancelEdittopic)
+
+## Files to Look At
+
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
+
+## Documentation
+
+- [Edit Data](https://docs.devexpress.com/AspNet/3712/components/grid-view/concepts/edit-data)
+
+## More Examples
+
+- [Grid View for ASP.NET Web Forms - How to edit an in-memory data set with a master-detail relationship](https://github.com/DevExpress-Examples/aspxgridview-edit-in-memory-dataset)
+- [Grid View for ASP.NET Web Forms - Switch to the edit mode by clicking a status bar button or by double-clicking a row](https://github.com/DevExpress-Examples/switch-to-the-edit-mode-by-clicking-a-status-bar-button-or-by-double-clicking-a-row-e7)
+- [Grid View for ASP.NET Web Forms - How to enable/disable command buttons on the client side](https://github.com/DevExpress-Examples/how-to-enable-disable-command-buttons-on-the-client-side-e2345)
