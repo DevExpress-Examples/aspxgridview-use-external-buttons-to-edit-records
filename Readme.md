@@ -10,7 +10,7 @@
 <!-- default file list end -->
 # How Insert, Update and Delete ASPxGridView's records with buttons
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1522/)**
+**[[Run Online]](https://codecentral.devexpress.com/128537632/)**
 <!-- run online end -->
 
 
