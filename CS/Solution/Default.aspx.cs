@@ -87,6 +87,6 @@ namespace Solution {
         }
         protected void grid_InitNewRow(object sender, DevExpress.Web.Data.ASPxDataInitNewRowEventArgs e) {
             e.NewValues["ID"] = GetLastKey() + 1;
-        }
+        } 
     }
 }
