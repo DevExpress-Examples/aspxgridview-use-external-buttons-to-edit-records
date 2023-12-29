@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to use external buttons to edit grid data
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128537632/)**
-<!-- run online end -->
 
 This example demonstrates how to use external button controls to edit a [Grid View](https://docs.devexpress.com/AspNet/5823/components/grid-view)'s data records.
 
