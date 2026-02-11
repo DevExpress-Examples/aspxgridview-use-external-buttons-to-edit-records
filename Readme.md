@@ -43,7 +43,7 @@ The example application implements a custom toolbar populated with [ASPxButton](
 - [Grid View for ASP.NET Web Forms - Switch to the edit mode by clicking a status bar button or by double-clicking a row](https://github.com/DevExpress-Examples/switch-to-the-edit-mode-by-clicking-a-status-bar-button-or-by-double-clicking-a-row-e7)
 - [Grid View for ASP.NET Web Forms - How to enable/disable command buttons on the client side](https://github.com/DevExpress-Examples/how-to-enable-disable-command-buttons-on-the-client-side-e2345)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=aspxgridview-use-external-buttons-to-edit-records&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=aspxgridview-use-external-buttons-to-edit-records&~~~was_helpful=no)
 
